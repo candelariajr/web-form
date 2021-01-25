@@ -1,12 +1,12 @@
 <template>
-
+  <SignupForm></SignupForm>
 </template>
 
 <script>
-
+import SignupForm from "@/components/SignupForm";
 export default {
   name: 'App',
-  components: {
+  components: { SignupForm
   }
 }
 </script>
@@ -24,5 +24,10 @@ export default {
 body{
   margin: 0;
   background: #eee;
+}
+
+*{
+  font-family: Arial, Verdana, sans-serif;
+  user-select: none;
 }
 </style>
